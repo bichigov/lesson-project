@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.header {
+    padding:  0 190px;
+    background-color: green;
+}
+.list  {
+    margin: 0 auto;
+    width: max-content;
+}
+
+.list-item {
+    display: inline-block;
+    padding: 20px 34px;
+    transition:.5s;
+    color: brown;
+
+}
+.list-item:hover {
+    background-color: darkgreen;
+}
+.list-item a:visited {
+    color: aqua;
+
+}
